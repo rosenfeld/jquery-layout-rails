@@ -22,4 +22,4 @@ Alternatively you can add both dependencies at once:
 If you have multiple requires in your application, you shouldn't include jquery in more
 than one of them or it will be included more than once. This means it will remove all prior
 registered plugins on each inclusion. So, if that is your case you should include
-`jquery/layout` instead of `jquery-layou` for better control over jQuery inclusion.
+`jquery/layout` instead of `jquery-layout` for better control over jQuery inclusion.
