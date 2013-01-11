@@ -86,6 +86,14 @@ body {
 	.ui-layout-resizer-dragging {	/* CLONED resizer being dragged */
 		border: 	 1px solid #BBB;
 	}
+	.ui-layout-resizer-north-dragging,
+	.ui-layout-resizer-south-dragging {
+		border-width:	1px 0;
+	}
+	.ui-layout-resizer-west-dragging,
+	.ui-layout-resizer-east-dragging {
+		border-width:	0 1px;
+	}
 	/* NOTE: Add a 'dragging-limit' color to provide visual feedback when resizer hits min/max size limits */
 	.ui-layout-resizer-dragging-limit {	/* CLONED resizer at min or max size-limit */
 		background: #E1A4A4; /* red */
