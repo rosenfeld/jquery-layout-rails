@@ -23,3 +23,7 @@ If you have multiple requires in your application, you shouldn't include jquery 
 than one of them or it will be included more than once. This means it will remove all prior
 registered plugins on each inclusion. So, if that is your case you should include
 `jquery/layout` instead of `jquery-layout` for better control over jQuery inclusion.
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/rosenfeld/jquery-layout-rails/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
